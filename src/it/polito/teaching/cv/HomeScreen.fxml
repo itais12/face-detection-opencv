@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="it.polito.teaching.cv.HomeScreenController">
+   <center>
+      <Label prefHeight="0.0" text="would you like to recognize ?" textFill="#461ec9" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </center>
+   <bottom>
+      <Button fx:id="startRecoButton" defaultButton="true" mnemonicParsing="false" onMouseClicked="#startRecoClick" text="Click here" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </bottom>
+</BorderPane>
